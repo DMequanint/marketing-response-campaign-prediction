@@ -1,5 +1,3 @@
-# marketing-campaing-response
-
 # Marketing Campaign Response Prediction
 
 <a target="_blank" href="https://vitejs.dev/">
