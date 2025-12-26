@@ -1,12 +1,54 @@
 # marketing-campaing-response
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
+# Marketing Campaign Response Prediction
+
+<a target="_blank" href="https://vitejs.dev/">
+    <img src="https://img.shields.io/badge/Vite-Frontend-646CFF?logo=vite" />
+</a>
+<a target="_blank" href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-Backend-3776AB?logo=python" />
 </a>
 
-Marketing Campaign Response Prediction
+---
 
-## Project Organization
+## Project Overview
+
+This project predicts customer responses to real-world marketing campaigns using a **machine learning model (LightGBM)** and provides a **modern, interactive web interface** built with **Vite + React**.
+
+Key goals of the project:
+
+- Predict whether a customer will respond positively to a campaign.
+- Handle categorical data natively using LightGBM.
+- Deal with imbalanced classes and missing data.
+- Enable both single and batch predictions via a web frontend.
+- Serve predictions through a REST API using FastAPI.
+- Provide an intuitive, responsive user interface for marketing analysts.
+
+---
+
+## Tech Stack
+
+**Frontend**
+- [Vite](https://vitejs.dev/) – Build tool for modern React apps
+- [React](https://reactjs.org/) – UI library
+- CSS / inline styling for responsive UI
+
+**Backend**
+- [Python 3.10+](https://www.python.org/)
+- [FastAPI](https://fastapi.tiangolo.com/) – REST API server
+- [Pydantic](https://pydantic-docs.helpmanual.io/) – Data validation
+- [LightGBM](https://lightgbm.readthedocs.io/) – Machine learning model
+- [Pandas](https://pandas.pydata.org/) – Data processing
+- [Scikit-learn](https://scikit-learn.org/) – Feature preprocessing and evaluation
+- [Joblib](https://joblib.readthedocs.io/) – Model serialization
+
+**Development Tools**
+- [Node.js / npm](https://nodejs.org/) – Frontend package manager
+- [VSCode](https://code.visualstudio.com/) or any IDE for development
+
+---
+
+## Project Structure
 
 ```
 marketing-response-project/
