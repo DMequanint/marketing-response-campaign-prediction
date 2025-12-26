@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "marketing_campaing_response"
+version = "0.0.1"
+description = "Marketing Campaign Response Prediction"
+authors = [
+  { name = "Dessalegn Yehuala" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["marketing_campaing_response"]
+include = ["pyproject.toml", "marketing_campaing_response/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["marketing_campaing_response"]
+force-sort-within-sections = true
+
