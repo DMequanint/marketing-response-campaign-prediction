@@ -29,7 +29,7 @@ Key goals of the project:
 **Frontend**
 - [Vite](https://vitejs.dev/) – Build tool for modern React apps
 - [React](https://reactjs.org/) – UI library
-- CSS / inline styling for responsive UI
+- CSS / HTML
 
 **Backend**
 - [Python 3.10+](https://www.python.org/)
@@ -153,8 +153,8 @@ npm run dev
   "probabilities": [0.73]
 }
 
-
-```
+#Author: Desalegn Yehuala
+#Built: December 2025```
 
 --------
 
